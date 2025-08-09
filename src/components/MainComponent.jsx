@@ -49,7 +49,12 @@ export default function MainComponent() {
                 </p>
             </div>
             <div className="six">
-                <img src="img/santiago.jpg" alt="" className="profile-dp" data-node-name="imagePath" />
+                <img
+                    src="img/santiago.jpg"
+                    alt=""
+                    className="profile-dp"
+                    data-node-name="imagePath"
+                />
                 <img src="img/hat.svg" alt="" className="hat" />
                 <div className="wish">
                     <h3 className="wish-hbd" data-node-name="wishHeading">
