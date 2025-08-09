@@ -4,7 +4,7 @@ export default function MainComponent() {
             <div className="one">
                 <h1 className="one">
                     <span data-node-name="greeting">Hey</span>
-                    <span data-node-name="name">Lydia</span>
+                    <span data-node-name="name">Santiago Reyes</span>
                 </h1>
                 <p className="two" data-node-name="greetingText">
                     I really like your name btw!
@@ -49,7 +49,7 @@ export default function MainComponent() {
                 </p>
             </div>
             <div className="six">
-                <img src="img/miraz.jpeg" alt="" className="lydia-dp" data-node-name="imagePath" />
+                <img src="img/santiago.jpg" alt="" className="profile-dp" data-node-name="imagePath" />
                 <img src="img/hat.svg" alt="" className="hat" />
                 <div className="wish">
                     <h3 className="wish-hbd" data-node-name="wishHeading">

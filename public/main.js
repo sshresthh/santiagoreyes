@@ -51,7 +51,7 @@ const animationTimeline = () => {
         skewX: '-15deg',
     };
 
-    const tl = new TimelineMax();
+    const tl = new TimelineLite();
 
     tl.to('.container', 0.1, {
         visibility: 'visible',
@@ -207,7 +207,7 @@ const animationTimeline = () => {
             0.2
         )
         .from(
-            '.lydia-dp',
+            '.profile-dp',
             0.5,
             {
                 scale: 3.5,
